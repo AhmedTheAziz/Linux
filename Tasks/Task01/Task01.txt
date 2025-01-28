@@ -1,0 +1,256 @@
+
+buddha73@Buddha-VirtualBox:~/Documents$ mkdir Robotics-Corner
+
+buddha73@Buddha-VirtualBox:~/Documents$ cd Robotics-Corner
+
+buddha73@Buddha-VirtualBox:~/Documents/Robotics-Corner$ mkdir Tasks
+
+buddha73@Buddha-VirtualBox:~/Documents/Robotics-Corner$ cd Tasks
+
+buddha73@Buddha-VirtualBox:~/Documents/Robotics-Corner/Tasks$ mkdir Task01
+
+buddha73@Buddha-VirtualBox:~/Documents/Robotics-Corner/Tasks$ ls
+Task01
+
+buddha73@Buddha-VirtualBox:~/Documents/Robotics-Corner/Tasks$ cd Task01
+
+buddha73@Buddha-VirtualBox:~/Documents/Robotics-Corner/Tasks/Task01$ mkdir Countries
+
+buddha73@Buddha-VirtualBox:~/Documents/Robotics-Corner/Tasks/Task01$ ls
+Countries
+
+buddha73@Buddha-VirtualBox:~/Documents/Robotics-Corner/Tasks/Task01$ cd Countries
+
+buddha73@Buddha-VirtualBox:~/Documents/Robotics-Corner/Tasks/Task01/Countries$ touch Egypt.txt Lebnon.txt Oman.txt Germany.txt France.txt 
+
+buddha73@Buddha-VirtualBox:~/Documents/Robotics-Corner/Tasks/Task01/Countries$ ls
+Egypt.txt  France.txt  Germany.txt  Lebnon.txt  Oman.txt
+
+buddha73@Buddha-VirtualBox:~/Documents/Robotics-Corner/Tasks/Task01/Countries$ ls -l
+total 0
+-rw-rw-r-- 1 buddha73 buddha73 0 Feb  6 21:52 Egypt.txt
+-rw-rw-r-- 1 buddha73 buddha73 0 Feb  6 21:52 France.txt
+-rw-rw-r-- 1 buddha73 buddha73 0 Feb  6 21:52 Germany.txt
+-rw-rw-r-- 1 buddha73 buddha73 0 Feb  6 21:52 Lebnon.txt
+-rw-rw-r-- 1 buddha73 buddha73 0 Feb  6 21:52 Oman.txt
+buddha73@Buddha-VirtualBox:~/Documents/Robotics-Corner/Tasks/Task01/Countries$ mkdir Cities
+
+buddha73@Buddha-VirtualBox:~/Documents/Robotics-Corner/Tasks/Task01/Countries$ cd Cities
+
+buddha73@Buddha-VirtualBox:~/Documents/Robotics-Corner/Tasks/Task01/Countries/Cities$ touch Cairo.txt Beirut.txt Muscat.txt
+
+buddha73@Buddha-VirtualBox:~/Documents/Robotics-Corner/Tasks/Task01/Countries/Cities$ cd ..
+
+buddha73@Buddha-VirtualBox:~/Documents/Robotics-Corner/Tasks/Task01/Countries$ ls -l
+total 4
+drwxrwxr-x 2 buddha73 buddha73 4096 Feb  6 21:55 Cities
+-rw-rw-r-- 1 buddha73 buddha73    0 Feb  6 21:52 Egypt.txt
+-rw-rw-r-- 1 buddha73 buddha73    0 Feb  6 21:52 France.txt
+-rw-rw-r-- 1 buddha73 buddha73    0 Feb  6 21:52 Germany.txt
+-rw-rw-r-- 1 buddha73 buddha73    0 Feb  6 21:52 Lebnon.txt
+-rw-rw-r-- 1 buddha73 buddha73    0 Feb  6 21:52 Oman.txt
+buddha73@Buddha-VirtualBox:~/Documents/Robotics-Corner/Tasks/Task01/Countries$ chmod 610 Egypt.txt Lebnon.txt Oman.txt
+
+buddha73@Buddha-VirtualBox:~/Documents/Robotics-Corner/Tasks/Task01/Countries$ ls -l
+total 4
+drwxrwxr-x 2 buddha73 buddha73 4096 Feb  6 21:55 Cities
+-rw---x--- 1 buddha73 buddha73    0 Feb  6 21:52 Egypt.txt
+-rw-rw-r-- 1 buddha73 buddha73    0 Feb  6 21:52 France.txt
+-rw-rw-r-- 1 buddha73 buddha73    0 Feb  6 21:52 Germany.txt
+-rw---x--- 1 buddha73 buddha73    0 Feb  6 21:52 Lebnon.txt
+-rw---x--- 1 buddha73 buddha73    0 Feb  6 21:52 Oman.txt
+
+buddha73@Buddha-VirtualBox:~/Documents/Robotics-Corner/Tasks/Task01/Countries$ sudo useradd -u 1973 -d /home/Arabs -s /bin/bash Arabs 
+[sudo] password for buddha73: 
+
+buddha73@Buddha-VirtualBox:~/Documents/Robotics-Corner/Tasks/Task01/Countries$ sudo useradd -u 1945 -d /home/Europe -s /bin/bash Europe 
+
+buddha73@Buddha-VirtualBox:~/Documents/Robotics-Corner/Tasks/Task01/Countries$ cat /etc/passwd
+root:x:0:0:root:/root:/bin/bash
+daemon:x:1:1:daemon:/usr/sbin:/usr/sbin/nologin
+bin:x:2:2:bin:/bin:/usr/sbin/nologin
+sys:x:3:3:sys:/dev:/usr/sbin/nologin
+sync:x:4:65534:sync:/bin:/bin/sync
+games:x:5:60:games:/usr/games:/usr/sbin/nologin
+man:x:6:12:man:/var/cache/man:/usr/sbin/nologin
+lp:x:7:7:lp:/var/spool/lpd:/usr/sbin/nologin
+mail:x:8:8:mail:/var/mail:/usr/sbin/nologin
+news:x:9:9:news:/var/spool/news:/usr/sbin/nologin
+uucp:x:10:10:uucp:/var/spool/uucp:/usr/sbin/nologin
+proxy:x:13:13:proxy:/bin:/usr/sbin/nologin
+www-data:x:33:33:www-data:/var/www:/usr/sbin/nologin
+backup:x:34:34:backup:/var/backups:/usr/sbin/nologin
+list:x:38:38:Mailing List Manager:/var/list:/usr/sbin/nologin
+irc:x:39:39:ircd:/run/ircd:/usr/sbin/nologin
+gnats:x:41:41:Gnats Bug-Reporting System (admin):/var/lib/gnats:/usr/sbin/nologin
+nobody:x:65534:65534:nobody:/nonexistent:/usr/sbin/nologin
+systemd-network:x:100:102:systemd Network Management,,,:/run/systemd:/usr/sbin/nologin
+systemd-resolve:x:101:103:systemd Resolver,,,:/run/systemd:/usr/sbin/nologin
+messagebus:x:102:105::/nonexistent:/usr/sbin/nologin
+systemd-timesync:x:103:106:systemd Time Synchronization,,,:/run/systemd:/usr/sbin/nologin
+syslog:x:104:111::/home/syslog:/usr/sbin/nologin
+_apt:x:105:65534::/nonexistent:/usr/sbin/nologin
+tss:x:106:113:TPM software stack,,,:/var/lib/tpm:/bin/false
+uuidd:x:107:116::/run/uuidd:/usr/sbin/nologin
+systemd-oom:x:108:117:systemd Userspace OOM Killer,,,:/run/systemd:/usr/sbin/nologin
+tcpdump:x:109:118::/nonexistent:/usr/sbin/nologin
+avahi-autoipd:x:110:119:Avahi autoip daemon,,,:/var/lib/avahi-autoipd:/usr/sbin/nologin
+usbmux:x:111:46:usbmux daemon,,,:/var/lib/usbmux:/usr/sbin/nologin
+dnsmasq:x:112:65534:dnsmasq,,,:/var/lib/misc:/usr/sbin/nologin
+kernoops:x:113:65534:Kernel Oops Tracking Daemon,,,:/:/usr/sbin/nologin
+avahi:x:114:121:Avahi mDNS daemon,,,:/run/avahi-daemon:/usr/sbin/nologin
+cups-pk-helper:x:115:122:user for cups-pk-helper service,,,:/home/cups-pk-helper:/usr/sbin/nologin
+rtkit:x:116:123:RealtimeKit,,,:/proc:/usr/sbin/nologin
+whoopsie:x:117:124::/nonexistent:/bin/false
+sssd:x:118:125:SSSD system user,,,:/var/lib/sss:/usr/sbin/nologin
+speech-dispatcher:x:119:29:Speech Dispatcher,,,:/run/speech-dispatcher:/bin/false
+fwupd-refresh:x:120:126:fwupd-refresh user,,,:/run/systemd:/usr/sbin/nologin
+nm-openvpn:x:121:127:NetworkManager OpenVPN,,,:/var/lib/openvpn/chroot:/usr/sbin/nologin
+saned:x:122:129::/var/lib/saned:/usr/sbin/nologin
+colord:x:123:130:colord colour management daemon,,,:/var/lib/colord:/usr/sbin/nologin
+geoclue:x:124:131::/var/lib/geoclue:/usr/sbin/nologin
+pulse:x:125:132:PulseAudio daemon,,,:/run/pulse:/usr/sbin/nologin
+gnome-initial-setup:x:126:65534::/run/gnome-initial-setup/:/bin/false
+hplip:x:127:7:HPLIP system user,,,:/run/hplip:/bin/false
+gdm:x:128:134:Gnome Display Manager:/var/lib/gdm3:/bin/false
+buddha73:x:1000:1000:BUDdha,,,:/home/buddha73:/bin/bash
+vboxadd:x:999:1::/var/run/vboxadd:/bin/false
+zoz:x:1001:1001::/home/zoz:/bin/sh
+aziz:x:1002:1003::/home/aziz:/bin/zsh
+Arabs:x:1973:1973::/home/Arabs:/bin/bash
+Europe:x:1945:1945::/home/Europe:/bin/bash
+
+buddha73@Buddha-VirtualBox:~/Documents/Robotics-Corner/Tasks/Task01/Countries$ sudo chown Arabs Egypt.txt Lebnon.txt Oman.txt
+
+buddha73@Buddha-VirtualBox:~/Documents/Robotics-Corner/Tasks/Task01/Countries$ ls -l
+total 4
+drwxrwxr-x 2 buddha73 buddha73 4096 Feb  6 21:55 Cities
+-rw---x--- 1 Arabs    buddha73    0 Feb  6 21:52 Egypt.txt
+-rw-rw-r-- 1 buddha73 buddha73    0 Feb  6 21:52 France.txt
+-rw-rw-r-- 1 buddha73 buddha73    0 Feb  6 21:52 Germany.txt
+-rw---x--- 1 Arabs    buddha73    0 Feb  6 21:52 Lebnon.txt
+-rw---x--- 1 Arabs    buddha73    0 Feb  6 21:52 Oman.txt
+
+buddha73@Buddha-VirtualBox:~/Documents/Robotics-Corner/Tasks/Task01/Countries$ sudo chown Europe Germany.txt France.txt
+
+buddha73@Buddha-VirtualBox:~/Documents/Robotics-Corner/Tasks/Task01/Countries$ ls -l
+total 4
+drwxrwxr-x 2 buddha73 buddha73 4096 Feb  6 21:55 Cities
+-rw---x--- 1 Arabs    buddha73    0 Feb  6 21:52 Egypt.txt
+-rw-rw-r-- 1 Europe   buddha73    0 Feb  6 21:52 France.txt
+-rw-rw-r-- 1 Europe   buddha73    0 Feb  6 21:52 Germany.txt
+-rw---x--- 1 Arabs    buddha73    0 Feb  6 21:52 Lebnon.txt
+-rw---x--- 1 Arabs    buddha73    0 Feb  6 21:52 Oman.txt
+
+buddha73@Buddha-VirtualBox:~/Documents/Robotics-Corner/Tasks/Task01/Countries$ sudo groupadd -g 1985 Schengen 
+
+buddha73@Buddha-VirtualBox:~/Documents/Robotics-Corner/Tasks/Task01/Countries$ cat /etc/group
+root:x:0:
+daemon:x:1:
+bin:x:2:
+sys:x:3:
+adm:x:4:syslog,buddha73
+tty:x:5:
+disk:x:6:
+lp:x:7:
+mail:x:8:
+news:x:9:
+uucp:x:10:
+man:x:12:
+proxy:x:13:
+kmem:x:15:
+dialout:x:20:
+fax:x:21:
+voice:x:22:
+cdrom:x:24:buddha73
+floppy:x:25:
+tape:x:26:
+sudo:x:27:buddha73
+audio:x:29:pulse
+dip:x:30:buddha73
+www-data:x:33:
+backup:x:34:
+operator:x:37:
+list:x:38:
+irc:x:39:
+src:x:40:
+gnats:x:41:
+shadow:x:42:
+utmp:x:43:
+video:x:44:
+sasl:x:45:
+plugdev:x:46:buddha73
+staff:x:50:
+games:x:60:
+users:x:100:
+nogroup:x:65534:
+systemd-journal:x:101:
+systemd-network:x:102:
+systemd-resolve:x:103:
+crontab:x:104:
+messagebus:x:105:
+systemd-timesync:x:106:
+input:x:107:
+sgx:x:108:
+kvm:x:109:
+render:x:110:
+syslog:x:111:
+_ssh:x:112:
+tss:x:113:
+bluetooth:x:114:
+ssl-cert:x:115:
+uuidd:x:116:
+systemd-oom:x:117:
+tcpdump:x:118:
+avahi-autoipd:x:119:
+netdev:x:120:
+avahi:x:121:
+lpadmin:x:122:buddha73
+rtkit:x:123:
+whoopsie:x:124:
+sssd:x:125:
+fwupd-refresh:x:126:
+nm-openvpn:x:127:
+scanner:x:128:saned
+saned:x:129:
+colord:x:130:
+geoclue:x:131:
+pulse:x:132:
+pulse-access:x:133:
+gdm:x:134:
+lxd:x:135:buddha73
+buddha73:x:1000:
+sambashare:x:136:buddha73
+vboxsf:x:999:
+vboxdrmipc:x:998:
+zoz:x:1001:
+marketing:x:1002:aziz
+aziz:x:1003:
+Arabs:x:1973:
+Europe:x:1945:
+Schengen:x:1985:
+
+buddha73@Buddha-VirtualBox:~/Documents/Robotics-Corner/Tasks/Task01/Countries$ ls -l
+total 4
+drwxrwxr-x 2 buddha73 buddha73 4096 Feb  6 21:55 Cities
+-rw---x--- 1 Arabs    buddha73    0 Feb  6 21:52 Egypt.txt
+-rw-rw-r-- 1 Europe   buddha73    0 Feb  6 21:52 France.txt
+-rw-rw-r-- 1 Europe   buddha73    0 Feb  6 21:52 Germany.txt
+-rw---x--- 1 Arabs    buddha73    0 Feb  6 21:52 Lebnon.txt
+-rw---x--- 1 Arabs    buddha73    0 Feb  6 21:52 Oman.txt
+
+buddha73@Buddha-VirtualBox:~/Documents/Robotics-Corner/Tasks/Task01/Countries$ sudo usermod -aG Schengen Europe 
+
+buddha73@Buddha-VirtualBox:~/Documents/Robotics-Corner/Tasks/Task01/Countries$ id Europe
+uid=1945(Europe) gid=1945(Europe) groups=1945(Europe),1985(Schengen)
+
+buddha73@Buddha-VirtualBox:~/Documents/Robotics-Corner/Tasks/Task01/Countries$ sudo chgrp Schengen Germany.txt France.txt
+
+buddha73@Buddha-VirtualBox:~/Documents/Robotics-Corner/Tasks/Task01/Countries$ ls -l
+total 4
+drwxrwxr-x 2 buddha73 buddha73 4096 Feb  6 21:55 Cities
+-rw---x--- 1 Arabs    buddha73    0 Feb  6 21:52 Egypt.txt
+-rw-rw-r-- 1 Europe   Schengen    0 Feb  6 21:52 France.txt
+-rw-rw-r-- 1 Europe   Schengen    0 Feb  6 21:52 Germany.txt
+-rw---x--- 1 Arabs    buddha73    0 Feb  6 21:52 Lebnon.txt
+-rw---x--- 1 Arabs    buddha73    0 Feb  6 21:52 Oman.txt

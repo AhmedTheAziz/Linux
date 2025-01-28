@@ -1,0 +1,16 @@
+#!/bin/bash
+echo "which dir. you want to list then erase?!"
+read dir
+if [ -d $dir ]; then
+ cd $dir
+pwd
+ls -l
+cd ..
+pwd
+ls -l
+rm -rf $dir
+pwd 
+ls -l
+else 
+echo "not an existing directory"
+fi

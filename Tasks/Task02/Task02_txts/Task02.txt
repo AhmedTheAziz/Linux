@@ -1,0 +1,94 @@
+buddha73@Buddha-VirtualBox:~/Documents/Robotics-Corner/Tasks/Task02$ bash script01.sh
+ /home/buddha73/Documents/Robotics-Corner/Tasks/Task02/DIP is Created.
+/home/buddha73/Documents/Robotics-Corner/Tasks/Task02/DIP
+total 0
+-rw-rw-r-- 1 buddha73 buddha73 0 Feb 13 19:18 F1.txt
+-rw-rw-r-- 1 buddha73 buddha73 0 Feb 13 19:18 F2.txt
+-rw-rw-r-- 1 buddha73 buddha73 0 Feb 13 19:18 F3.txt
+-rw-rw-r-- 1 buddha73 buddha73 0 Feb 13 19:18 F4.txt
+-rw-rw-r-- 1 buddha73 buddha73 0 Feb 13 19:18 F5.txt
+/home/buddha73/Documents/Robotics-Corner/Tasks/Task02/DIP
+F1.txt	F2.txt	F3.txt	F4.txt	F5.txt	shell1.sh
+/home/buddha73/Documents/Robotics-Corner/Tasks/Task02
+total 24
+drwxrwxr-x 2 buddha73 buddha73 4096 Feb 13 00:29 Assignment
+drwxrwxr-x 2 buddha73 buddha73 4096 Feb 13 19:18 DIP
+-rwxrwxr-x 1 buddha73 buddha73 1068 Feb 13 19:13 script01.sh
+-rwxrwxr-x 1 buddha73 buddha73 1019 Feb 13 19:16 script02.sh
+-rw-rw-r-- 1 buddha73 buddha73 4502 Feb 13 01:56 Task02.txt
+Deleting /home/buddha73/Documents/Robotics-Corner/Tasks/Task02/DIP Please wait!
+Directory /home/buddha73/Documents/Robotics-Corner/Tasks/Task02/DIP has been Removed Succefully!
+/home/buddha73/Documents/Robotics-Corner/Tasks/Task02
+total 20
+drwxrwxr-x 2 buddha73 buddha73 4096 Feb 13 00:29 Assignment
+-rwxrwxr-x 1 buddha73 buddha73 1068 Feb 13 19:13 script01.sh
+-rwxrwxr-x 1 buddha73 buddha73 1019 Feb 13 19:16 script02.sh
+-rw-rw-r-- 1 buddha73 buddha73 4502 Feb 13 01:56 Task02.txt
+
+buddha73@Buddha-VirtualBox:~/Documents/Robotics-Corner/Tasks/Task02$ bash script02.sh
+Welcome to Task02 Please enter the name of the directory..
+dip
+ dip is Created.
+/home/buddha73/Documents/Robotics-Corner/Tasks/Task02/dip
+total 0
+-rw-rw-r-- 1 buddha73 buddha73 0 Feb 13 19:18 F1.txt
+-rw-rw-r-- 1 buddha73 buddha73 0 Feb 13 19:18 F2.txt
+-rw-rw-r-- 1 buddha73 buddha73 0 Feb 13 19:18 F3.txt
+-rw-rw-r-- 1 buddha73 buddha73 0 Feb 13 19:18 F4.txt
+-rw-rw-r-- 1 buddha73 buddha73 0 Feb 13 19:18 F5.txt
+/home/buddha73/Documents/Robotics-Corner/Tasks/Task02/dip
+F1.txt	F2.txt	F3.txt	F4.txt	F5.txt	shell1.sh
+/home/buddha73/Documents/Robotics-Corner/Tasks/Task02
+total 24
+drwxrwxr-x 2 buddha73 buddha73 4096 Feb 13 00:29 Assignment
+drwxrwxr-x 2 buddha73 buddha73 4096 Feb 13 19:18 dip
+-rwxrwxr-x 1 buddha73 buddha73 1068 Feb 13 19:13 script01.sh
+-rwxrwxr-x 1 buddha73 buddha73 1019 Feb 13 19:16 script02.sh
+-rw-rw-r-- 1 buddha73 buddha73 4502 Feb 13 01:56 Task02.txt
+Deleting dip Please wait!
+Directory dip has been Removed Succefully!
+/home/buddha73/Documents/Robotics-Corner/Tasks/Task02
+total 20
+drwxrwxr-x 2 buddha73 buddha73 4096 Feb 13 00:29 Assignment
+-rwxrwxr-x 1 buddha73 buddha73 1068 Feb 13 19:13 script01.sh
+-rwxrwxr-x 1 buddha73 buddha73 1019 Feb 13 19:16 script02.sh
+-rw-rw-r-- 1 buddha73 buddha73 4502 Feb 13 01:56 Task02.txt
+
+buddha73@Buddha-VirtualBox:~/Documents/Robotics-Corner/Tasks/Task02$ cd Assignment/
+
+buddha73@Buddha-VirtualBox:~/Documents/Robotics-Corner/Tasks/Task02/Assignment$ bash Assignmentpt01.sh
+choose the name of the Directory, please!!
+DIP
+/home/buddha73/Documents/Robotics-Corner/Tasks/Task02/Assignment/DIP
+file has been created!!
+file has been created!!
+file has been created!!
+file has been created!!
+file has been created!!
+total 0
+-rw-rw-r-- 1 buddha73 buddha73 0 Feb 13 19:19 f1.txt
+-rw-rw-r-- 1 buddha73 buddha73 0 Feb 13 19:19 f2.txt
+-rw-rw-r-- 1 buddha73 buddha73 0 Feb 13 19:19 f3.txt
+-rw-rw-r-- 1 buddha73 buddha73 0 Feb 13 19:19 f4.txt
+-rw-rw-r-- 1 buddha73 buddha73 0 Feb 13 19:19 f5.txt
+
+buddha73@Buddha-VirtualBox:~/Documents/Robotics-Corner/Tasks/Task02/Assignment$ bash Assignmentpt02.sh
+which dir. you want to list then erase?!
+DIP
+/home/buddha73/Documents/Robotics-Corner/Tasks/Task02/Assignment/DIP
+total 0
+-rw-rw-r-- 1 buddha73 buddha73 0 Feb 13 19:19 f1.txt
+-rw-rw-r-- 1 buddha73 buddha73 0 Feb 13 19:19 f2.txt
+-rw-rw-r-- 1 buddha73 buddha73 0 Feb 13 19:19 f3.txt
+-rw-rw-r-- 1 buddha73 buddha73 0 Feb 13 19:19 f4.txt
+-rw-rw-r-- 1 buddha73 buddha73 0 Feb 13 19:19 f5.txt
+/home/buddha73/Documents/Robotics-Corner/Tasks/Task02/Assignment
+total 12
+-rw-rw-r-- 1 buddha73 buddha73  294 Feb 12 23:45 Assignmentpt01.sh
+-rw-rw-r-- 1 buddha73 buddha73  191 Feb 12 23:55 Assignmentpt02.sh
+drwxrwxr-x 2 buddha73 buddha73 4096 Feb 13 19:19 DIP
+/home/buddha73/Documents/Robotics-Corner/Tasks/Task02/Assignment
+total 8
+-rw-rw-r-- 1 buddha73 buddha73 294 Feb 12 23:45 Assignmentpt01.sh
+-rw-rw-r-- 1 buddha73 buddha73 191 Feb 12 23:55 Assignmentpt02.sh
+
